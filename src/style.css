@@ -1,0 +1,72 @@
+body {
+  align-items: center;
+  padding: 25px;
+  font-family: "Mystery Quest", cursive;
+  color: #142d4c;
+  margin: auto;
+}
+
+.location-searches {
+  display: flex;
+  top: 0%;
+  padding: 0 50px;
+  color: #385170;
+  margin: 5px;
+  position: relative;
+}
+
+.weatherIcon {
+  font-size: 55px;
+}
+
+.tempChange {
+  position: relative;
+  left: 10px;
+  top: -12px;
+}
+
+.currentTemp {
+  font-size: 25px;
+}
+.search-navigation {
+  font-size: large;
+  padding: 15px;
+  margin: 10px;
+  width: 75%;
+  border-radius: 20px;
+  border-color: rgb(32, 84, 84);
+}
+
+.current-day {
+  display: block;
+}
+.current-day:hover {
+  background-color: #142d4c;
+  color: #ececec;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.details {
+  padding: 0 200px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  top: 0%;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.col {
+  display: block;
+  background-color: #9fd3c7;
+  margin: auto;
+  padding: 10px 25px;
+}
+.col :hover {
+  background-color: #142d4c;
+  color: #ececec;
+  border-radius: 10px;
+}
